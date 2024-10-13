@@ -1,0 +1,28 @@
+table, td, th
+{ 
+    
+    text-align: center;
+}
+td 
+{   border: 1px solid black;
+    height: 30px;
+    width: 30px;
+}
+table 
+{   
+    border-collapse:collapse;
+}
+table tr:nth-child(odd) td:nth-child(even)
+{
+    background-color: black;
+}
+table tr:nth-child(even) td:nth-child(odd)
+{
+    background-color: black; 
+}
+tr td:first-child , tr:first-child td, tr td:last-child , tr:last-child td
+{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(183, 183, 183) !important; 
+}

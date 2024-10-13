@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+    color:green;
+    border: 2px solid green;
+    background-color: yellow;
+    font-size:20px;
+    display: inline-block;
+}
+ul li{
+    display: inline; float: left;
+}

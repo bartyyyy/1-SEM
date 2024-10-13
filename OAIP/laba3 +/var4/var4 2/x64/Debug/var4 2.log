@@ -1,0 +1,14 @@
+﻿Сборка начата 20.09.2023 15:43:52.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba 3\var4\var4 2\var4 2.vcxproj" в узле 1 (целевые объекты ClCompile).
+     1>C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba 3\var4\var4 2\var4 2.vcxproj : error MSB4025: не удалось загрузить файл проекта. Файл 'C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba 3\var4\var4 2\var4 2.vcxproj' не найден.
+     1>Сборка проекта "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba 3\var4\var4 2\var4 2.vcxproj" завершена (целевые объекты ClCompile) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba 3\var4\var4 2\var4 2.vcxproj" (целевой объект ClCompile ) (1) ->
+         C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba 3\var4\var4 2\var4 2.vcxproj : error MSB4025: не удалось загрузить файл проекта. Файл 'C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba 3\var4\var4 2\var4 2.vcxproj' не найден.
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.00

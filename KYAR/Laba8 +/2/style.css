@@ -1,0 +1,44 @@
+﻿
+p{
+    color:blue;
+    font-size:16px;
+    font-family:Arial
+}
+h1, h2, h3, h4, h5, h6 {
+color:purple;
+font-family:Monotype Corsiva;
+}
+.pd1 {
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+}
+.pd2 {
+    color:yellow;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.pd3 {
+    color:green;
+    font-family:'Times New Roman', Times, serif;
+    font-size:22px;
+}
+li .smth{color:rgb(224, 0, 37);}
+li td{
+    background:purple;
+}
+table {
+    border-collapse:collapse; 
+    font-family:Consolas; 
+    font-size:20px; 
+    color:coral;
+}
+tr td{
+    padding: 5px 7px; 
+    border: 1px solid;
+    background-color:blueviolet;
+}
+th{
+    padding: 10px; 
+    border: 1px solid;
+}

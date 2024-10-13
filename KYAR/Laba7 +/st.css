@@ -1,0 +1,21 @@
+img{
+    width: 200px;
+    height:150px;
+    padding: 10px;
+}
+#o1{
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateX(45deg);
+}
+#o2{
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(45deg);
+}
+#o3{
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateX(-45deg);
+}
+#o4{
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(-45deg);
+}

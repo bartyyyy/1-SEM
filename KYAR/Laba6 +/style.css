@@ -1,0 +1,50 @@
+﻿
+p{
+    color:blue;
+    font-size:16px;
+    font-family:Arial;
+    margin: 0px 0px 0px 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+color:purple;
+font-family: "Monotype Corsiva";
+}
+.pd1 {
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    list-style: none;
+    list-style-image: url(op.png);
+    padding-left: 24px;
+}
+.pd2 {
+    color:yellow;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    list-style: none;
+    list-style-image: url(op.png);
+    padding-left: 24px;
+}
+.pd3 {
+    color:green;
+    font-family:'Times New Roman', Times, serif;
+    font-size:22px;
+    list-style: none;
+    list-style-image: url(op.png);
+    padding-left: 24px;
+}
+li .smth{color:rgb(224, 0, 37);}
+body{
+    background: url(fit.png) top right no-repeat fixed;
+    padding-right:200px ;
+}
+.lf{
+    float:left;
+    margin: 5px 5px 5px;
+
+}
+.rg{
+    float:left;
+    margin: 5px 5px 5px;
+    
+}

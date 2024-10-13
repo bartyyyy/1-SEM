@@ -1,0 +1,16 @@
+#i1 {
+    transform:scale(0.5) ;
+}
+#i2 {   
+    transform: rotate(45deg);
+}
+#i3 { 
+    transform: translate(50px,0px);
+}
+#i4 {
+    transform: skew(-20deg);
+}
+img{
+    width:250px;
+    height: 150px;;
+}

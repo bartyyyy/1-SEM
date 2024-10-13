@@ -1,0 +1,16 @@
+.Textchange {
+    animation: textizmena 5s infinite alternate;
+}
+@keyframes textizmena {
+    0% {
+        color: rgb(15, 83, 192);
+    }
+    100% {
+        color: rgb(101, 244, 49);
+    }
+}
+p{
+display: block;
+    width: 300px;
+    height: 300px;
+}

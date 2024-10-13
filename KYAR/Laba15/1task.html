@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\bartyy\Desktop\ЛАБЫ\КЯР БАРКОВСКИЙ\css\normalize.css">
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    img {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+        margin-top: 5px;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    ul li {
+        margin: 0;
+        text-decoration: none;
+        list-style-type: none;
+        width: 300px;
+        height: 300px;
+    }
+
+    p {
+        display: inline;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    input[type="submit"] {
+        display: block;
+        position: relative;
+        left: 5%;
+    }
+
+    label {
+        display: inline-block;
+        text-align: left;
+        width: 200px;
+    }
+
+    input {
+        margin-top: 20px;
+    }
+
+    .container .lastfoto1 {
+        margin-top: 5px;
+        background-image: url(https://mpmo.ru/content/2020/12/frukty-600x389.jpg);
+        background-repeat: none;
+        background-size: 300px;
+    }
+
+    .lastfoto .lastfoto1:hover {
+        background-image: url(https://ss.sport-express.ru/userfiles/materials/181/1812257/volga.jpg);
+    }
+
+    .fotoopisanie ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+    }
+
+    .fotoopisanie ul li {
+        margin: 0px 7px 0 0;
+        display: inline-block;
+    }
+
+    .fotoopisanie ul ul {
+        display: none;
+        position: absolute;
+    }
+
+    .fotoopisanie ul li:hover>ul {
+        display: inherit;
+    }
+
+    .fotoopisanie ul ul li {
+        text-align: center;
+        width: 300px;
+        height: 100px;
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+
+    form div {
+        margin-top: 5px;
+    }
+
+    .forma {
+        margin: 50px 10px;
+        height: 200px;
+        width: 600px;
+    }
+
+    .border {
+        border: 10px red solid;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="fotoopisanie">
+                <ul class="menu">
+                    <li><img src="https://bezvis.by/wp-content/uploads/2019/11/frukty-polza.jpg"
+                            alt="">
+                        <ul class="menuChoose">
+                            <li>Все для тебя, моря и океаны, все для тебя, рассветы и туманы</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <img class="secondfoto"
+                src="https://bezvis.by/wp-content/uploads/2019/11/frukty-polza.jpg"
+                alt="">
+            <img class="thirdfoto"
+                src="https://bezvis.by/wp-content/uploads/2019/11/frukty-polza.jpg"
+                alt="">
+            <ul class="lastfoto">
+                <li class="lastfoto1"></li>
+            </ul>
+        </div>
+        <form class="forma">
+            <label for="familiya" class="form">Фамилия </label>
+            <input type="text" id="familiya">
+            <label for="imya" class="form">Имя </label>
+            <input type="text" id="imya">
+            <label for="nomertovara" class="form">Номер товара </label>
+            <input type="text" id="nomertovara">
+            <label for="adres" class="form">Дата доставки </label>
+            <input type="text" id="adres">
+            <input id="otpravit" type="submit">
+        </form>
+    </main>
+
+    <footer id="footerBlock">
+        <p id="familiyavihod"></p>
+        <p id="imyavihod"></p>
+        <p id="nomertovaravihod"></p>
+        <p id="adresvihod"></p>
+    </footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,32 @@
+﻿Сборка начата 28.11.2023 21:26:19.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\var4\var4.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\x64\Debug\".
+         Создание каталога "x64\Debug\var4.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\var4.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\var4.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt var4.cpp
+         var4.cpp
+     1>C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\var4\var4.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\var4\var4.cpp(9,21): warning C4101: i: неиспользованная локальная переменная
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\x64\Debug\var4.exe" /INCREMENTAL /ILK:"x64\Debug\var4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\x64\Debug\var4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\x64\Debug\var4.lib" /MACHINE:X64 x64\Debug\var4.obj
+         var4.vcxproj -> C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\x64\Debug\var4.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\var4.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\var4.tlog\var4.lastbuildstate".
+     1>Сборка проекта "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\var4\var4.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\var4\var4.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\var4\var4.cpp(5,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba9\laba9\var4\var4.cpp(9,21): warning C4101: i: неиспользованная локальная переменная
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.07

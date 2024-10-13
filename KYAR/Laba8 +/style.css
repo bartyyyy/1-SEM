@@ -1,0 +1,27 @@
+ul.nav {
+    list-style-type: none;
+}
+aside{
+    float: right;
+}
+div{
+    border: 3px solid;
+}
+p{
+    font-size:18px;
+    text-align: left;
+    color:blue;
+}
+a:link{
+    text-decoration: none;
+    color:red;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:rgb(184,134,11);
+}
+a:visited{
+    color:#8B0000;
+}

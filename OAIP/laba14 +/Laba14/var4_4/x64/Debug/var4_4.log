@@ -1,0 +1,20 @@
+﻿Сборка начата 27.12.2023 18:11:22.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba14\Laba14\var4_4\var4_4.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\var4_4.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt var4_4.cpp
+         var4_4.cpp
+     1>C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba14\Laba14\var4_4\var4_4.cpp(79,1): fatal  error C1075: "{": не найдена несоответствующая лексема
+     1>Сборка проекта "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba14\Laba14\var4_4\var4_4.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba14\Laba14\var4_4\var4_4.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\bartyy\Desktop\ЛАБЫ\ОА БЕЛОДЕД\laba14\Laba14\var4_4\var4_4.cpp(79,1): fatal  error C1075: "{": не найдена несоответствующая лексема
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.28
